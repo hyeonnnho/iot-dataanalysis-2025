@@ -66,12 +66,19 @@
 ```
 - matplotlib 한글 설정
 ```python
+import matplotlib.pyplot as plt
 from matplotlib import rcParams, font_manager, rc
 
-font_path = 'C:/Windows/Fonts/malgun.ttf' # 맑은고딕체로 변경
-font = font_manager.FontProperties(fname=font_path).get_name() # 실제 설치된 폰트 이름조회
-rc('font', family=font) # 한글깨짐현상 해결!!
-rcParams['axes.unicode_minus'] = False # 한글 사용시 마이너스 표시 깨짐 해결!
+# 한글로 Matplotlib 사용시 항상 필요
+from matplotlib import rcParams, font_manager, rc
+
+font_path = 'C:/Windows/Fonts/malgun.ttf'
+font = font_manager.FontProperties(fname=font_path).get_name()
+rc('font', family=font)
+rcParams['axes.unicode_minus'] = False
+
+sns.set_style('darkgrid')
+sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 ```
 - seaborn 모듈(matplotlib 하위 모듈) 설치
 ```shell
@@ -126,8 +133,8 @@ rcParams['axes.unicode_minus'] = False # 한글 사용시 마이너스 표시 �
 ## 2일차
 
 ### 빅데이터에 필요한 모듈
-- Matplotlib(차트), Seaborn(차트 꾸미기), Numpy(배열), 
-- Pandas(데이터 조작), Folium(지도), Faker(더미데이터 생성)
+- Numpy(배열), Pandas(데이터 조작), Matplotlib(차트), Seaborn(차트 꾸미기)
+- Folium(지도), Faker(더미데이터 생성)
 
 - [노트북](./day02/mldl01_주요모듈학습.ipynb) 
 
