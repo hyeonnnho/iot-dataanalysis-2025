@@ -278,9 +278,16 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - [노트북](./day03/mldl02_확률적경사하강법.ipynb)
 
+## 4일차
+
+### 교차검증과 그리드 서치
+
 ### 인공신경망
+
 ### 심층신경망
+
 ### 합성곱신경망
+
 ### 순차데이터와 순환신경망
 
 
