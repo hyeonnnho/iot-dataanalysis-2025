@@ -337,6 +337,19 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 ## 5일차
 
 ### 합성곱신경망
+- CNN(Convolution Neural Network)
+    - 필터로 도장을 찍듯이 특성을 뽑아내어 사이즈를 줄여가며 훈련을 하는 신경망
+
+    <img src="./image/ml0012.png" width="600">
+
+- 기본용어
+    - 커널(필터) : 입력에 곱하는 가중치 도장. 뉴런의 개수를 필터라고 부름
+    - 특성 맵 : 합성곱 계산(각 커널과 입력을 곱한 출력)으로 구해진 출력값
+
+- 각각의 가중치로 특성맵을 여러번 생성
+
+     <img src="./image/ml0013.png" width="600">
+
 
 ### 파이토치
 
