@@ -402,6 +402,8 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - Kaggle 참조 노트북
 - [노트북](./day07/zzaebok-cat-vs-dog.ipynb)
 
+## 8일차
+
 ### YOLO
 - YOLO(You Only Look Once) : 객체 탐지, 이미지 분할 등을 위한 딥러닝 모델
     - 2015년 배포
@@ -413,9 +415,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - 2020년 파이토치 기반 변경(YOLOv5) : https://www.ultralytics.com/ko
 - 2025년 현재 v12(beta), v11(stable)
 
-## 8일차
-
-### 토이프로젝트
+- [노트북](./day08/mldl01_YOLO_start.ipynb)
 
 ### 코딩테스트
 
